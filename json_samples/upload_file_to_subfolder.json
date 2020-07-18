@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2020-07-17T21: 13: 41.945Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDAV2YJF4OSDLEPLZJLR"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "35.138.217.26"
+            },
+            "responseElements": {
+                "x-amz-request-id": "5098922A5A61FBE3",
+                "x-amz-id-2": "rLDYE52rsOPV5h53Mv4Aw4vbatyX9u6ZOkwAEWl3lmg0bsBGh+jMeIiTxgX56ODbbJiE7rpdNZoVfdbgCUn39XcG9/1dpYqC"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "4ffce820-24ab-4c23-876a-3e346f131b5e",
+                "bucket": {
+                    "name": "content-stories",
+                    "ownerIdentity": {
+                        "principalId": "A2LC7UHODT8B5N"
+                    },
+                    "arn": "arn:aws:s3: : :content-stories"
+                },
+                "object": {
+                    "key": "kids/benjamin/IMG_4215.JPG",
+                    "size": 3064876,
+                    "eTag": "79b268bc3e644599e799f96e246f819f",
+                    "sequencer": "005F12148A3273BD16"
+                }
+            }
+        }
+    ]
+}

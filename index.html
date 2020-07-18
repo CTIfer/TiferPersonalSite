@@ -10,7 +10,7 @@
 
         .starter-template {
             padding: 3rem 1.5rem;
-            text-align: center;
+            text-align: left;
         }
     </style>
     <!-- From https://getbootstrap.com/docs/4.0/examples/starter-template/ -->
@@ -27,8 +27,8 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Navigation</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,16 +42,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="videogame_dropdown0" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Favorite Games</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Madden</a>
+                        <a class="dropdown-item" href="#">NHL</a>
+                        <a class="dropdown-item" href="#">OOTP</a>
+                    </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="kid_dropdown0" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">My Kids</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Lauren</a>
+                        <a class="dropdown-item" href="#">Benjamin</a>
+                        <a class="dropdown-item" href="#">Jonathan</a>
                     </div>
                 </li>
             </ul>
@@ -66,12 +72,26 @@
 
         <div class="starter-template">
             <h1>What's there to say?</h1>
-            <p class="lead">Starting out just playing.  Not sure what I want to do yet. I mainly just want to play with Bootstrap and refamiliarize myself.</p>
+            <p class="lead">Right now I'm learning AWS, so what better way than to play around with a sample site.</p>
+            <p>I know this is a simple HTML site, but behind the scenes, I upload a text file for every page I want to create and based on the folder its placed 
+            in, it will shove that copy into a template and copy to my production bucket.
+            </p>
 
-            <p>But how does this one look?</p>
+            <p>Conversely, if I want to update the templates, I can drop my new template in a folder and it will automatically regenerate all of my existing pages
+            so that way they have the new looking and feel.
+            </p>
+
         </div>
 
-    </main><!-- /.container -->
+    </main>
+    <!-- /.container -->
+
+    <script lang="JavaScript">
+        $(document).ready(function(){
+
+            // We loaded our document
+        })
+    </script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -82,6 +102,19 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../assets/js/vendor/popper.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
+
+        <nav class="footer navbar navbar-expand-md navbar-dark bg-dark fixed-bottom">
+        <a class="navbar-brand" href="#">Footer: </a>
+        
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Why the fuck are you even looking here? No eye contact!<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 </body>
 

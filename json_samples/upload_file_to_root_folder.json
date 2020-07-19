@@ -1,36 +1,36 @@
 {
-   "Records":[
+   "Records": [
       {
-         "eventVersion":"2.1",
-         "eventSource":"aws:s3",
-         "awsRegion":"us-east-1",
-         "eventTime":"2020-07-17T21:05:17.105Z",
-         "eventName":"ObjectCreated:Put",
-         "userIdentity":{
-            "principalId":"AWS:AIDAV2YJF4OSDLEPLZJLR"
+         "eventVersion": "2.1",
+         "eventSource": "aws:s3",
+         "awsRegion": "us-east-1",
+         "eventTime": "2020-07-17T21:05:17.105Z",
+         "eventName": "ObjectCreated:Put",
+         "userIdentity": {
+            "principalId": "AWS:AIDAV2YJF4OSDLEPLZJLR"
          },
-         "requestParameters":{
-            "sourceIPAddress":"35.138.217.26"
+         "requestParameters": {
+            "sourceIPAddress": "35.138.217.26"
          },
-         "responseElements":{
-            "x-amz-request-id":"3EB6C9BC299DA72C",
-            "x-amz-id-2":"AYC5hmlgllDWlAAEDRIdanC7PDfzI7ElPtejoAS/Pj/1F8RcONDqs8++C6r4CMcZopTll8bdv950Kzw6EZq98whWqRuu2s5A"
+         "responseElements": {
+            "x-amz-request-id": "3EB6C9BC299DA72C",
+            "x-amz-id-2": "AYC5hmlgllDWlAAEDRIdanC7PDfzI7ElPtejoAS/Pj/1F8RcONDqs8++C6r4CMcZopTll8bdv950Kzw6EZq98whWqRuu2s5A"
          },
-         "s3":{
-            "s3SchemaVersion":"1.0",
-            "configurationId":"4ffce820-24ab-4c23-876a-3e346f131b5e",
-            "bucket":{
-               "name":"content-stories",
-               "ownerIdentity":{
-                  "principalId":"A2LC7UHODT8B5N"
+         "s3": {
+            "s3SchemaVersion": "1.0",
+            "configurationId": "4ffce820-24ab-4c23-876a-3e346f131b5e",
+            "bucket": {
+               "name": "content-stories",
+               "ownerIdentity": {
+                  "principalId": "A2LC7UHODT8B5N"
                },
-               "arn":"arn:aws:s3:::content-stories"
+               "arn": "arn:aws:s3:::content-stories"
             },
-            "object":{
-               "key":"IMG_3971.JPG",
-               "size":974376,
-               "eTag":"139df687809e3de029f56a1e398a2bc3",
-               "sequencer":"005F12128D56B58726"
+            "object": {
+               "key": "IMG_3971.JPG",
+               "size": 974376,
+               "eTag": "139df687809e3de029f56a1e398a2bc3",
+               "sequencer": "005F12128D56B58726"
             }
          }
       }

@@ -1,0 +1,3 @@
+<h1>THis is for OOTP</h1>
+
+<p>See, it will get its own template</p>

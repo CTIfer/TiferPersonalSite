@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<!-- Root Template -->
+
+<!-- Video Game Template -->
 <head>
     <title>Chris Tifer's personal site - {TITLE}</title>
 
@@ -17,7 +18,7 @@
 
 </head>
 
-<body>
+<body style="background-color: orange;">
 
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Navigation</a>
